@@ -1,0 +1,10 @@
+*.yml
+hxformat.json
+ISSUES-WITH-ISSUES.md
+version.downloadMe  
+
+.github/
+.vscode/
+docs/
+example_mods/
+export/
