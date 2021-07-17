@@ -498,6 +498,20 @@ class Character extends FlxSprite
 				addOffset("singDOWN-alt", -30, -27);
 
 				playAnim('idle');
+
+			case 'uta':
+				frames = Paths.getSparrowAtlas('uta/uta_assets');
+				animation.addByPrefix('idle', 'uta idle', 24, false);
+				animation.addByPrefix('singLEFT', 'uta left', 24, false);
+				animation.addByPrefix('singDOWN', 'uta down', 24, false);
+				animation.addByPrefix('singUP', 'uta up', 24, false);
+				animation.addByPrefix('singRIGHT', 'uta right', 24, false);
+
+				addOffset('idle');
+				addOffset("singLEFT", 0, 0);
+				addOffset("singDOWN", 0, 0);
+				addOffset("singUP", 0, 0);
+				addOffset("singRIGHT", 0, 0);
 		}
 
 		dance();

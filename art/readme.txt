@@ -17,8 +17,6 @@
 
 HEY
 Thanks for downloadin Friday Night FUNKIN'
-If you downloaded this from any other place than ninja-muffin24.itch.io/FUNKIN
-You might be in DANGER!!! 
 
 The Itch.io release is the only official source for the desktop (PC, Mac, Linux) versions of the game!
 As of right now, the game is FREE! If you paid for it, you got SCAMMED!
@@ -27,19 +25,16 @@ Now that that's out of the way....
 THANKS FOR DOWNLOADIN. 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-
-    PERMISSIONS XDDDD
+    PERMISSIONS 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-
 
-Little info, you have FULL PERMISSION to stream, letsplay, meme, shitpost, do WHATEVER you want with the game.
+Little info, you have FULL PERMISSION to stream, letsplay, meme, do WHATEVER you want with the game.
 Use the music in videos you do, use art, ANYTHING. GO CRAZY BRO.
 
 If you do make any sort of video, it would be a bro move if you linked the game and spread the word
 
 Play On Newgrounds - https://www.newgrounds.com/portal/view/770371
 Support on Itch.io - https://ninja-muffin24.itch.io/funkin
-
-If not no biggie we don't fully hate you only kinda no biggie.
-
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-
     INFO AND LINKS
@@ -71,7 +66,6 @@ BassetFilms did music for lemon monster songs
 
 
 Final important thing, this is made with the support and love to and from Newgrounds.com.
-Go to newgrounds, we love newgrounds. newgrounds good. How many times do I gotta damn say it. Newgrounds newgrounds newgrounds newgrounds
 I love Tom Fulp.
 
 - Cameron ♪(´▽｀)
@@ -89,4 +83,3 @@ I love Tom Fulp.
                                       /      /                                    
                                                                                   
 ##################################################################################
-i stole this from stamper.
