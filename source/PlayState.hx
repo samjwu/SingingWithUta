@@ -739,7 +739,7 @@ class PlayState extends MusicBeatState
 			case 'theatre':
 			{
 					curStage = 'theatre';
-					defaultCamZoom = 0.70;
+					defaultCamZoom = 0.50;
 
 					var bg:FlxSprite = new FlxSprite(-796, -423).loadGraphic(Paths.image('uta/bgTheatre'));
 					bg.antialiasing = true;
@@ -859,10 +859,10 @@ class PlayState extends MusicBeatState
 				dad.x -= 150;
 				dad.y += 100;
 				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
-			// case 'uta':
-			// 	dad.x = 971;
-			// 	dad.y = 1037;
-			// 	camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
+			case 'uta':
+				dad.x -= 300;
+				dad.y += 100;
+				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
 		}
 
 
@@ -906,11 +906,11 @@ class PlayState extends MusicBeatState
 				boyfriend.y += 220;
 				gf.x += 180;
 				gf.y += 300;
-			// case 'theatre':
-			// 	boyfriend.x = 1875;
-			// 	boyfriend.y = 1056;
-			// 	gf.x += 1220;
-			// 	gf.y += 693;
+			case 'theatre':
+				boyfriend.x += 300;
+				boyfriend.y += 200;
+				// gf.x += 180;
+				gf.y += 300;
 		}
 
 		if (!PlayStateChangeables.Optimize)
