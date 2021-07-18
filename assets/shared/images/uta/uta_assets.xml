@@ -2,14 +2,14 @@
 <TextureAtlas imagePath="uta_assets.png">
     <!-- Created manually since I don't have Adobe Animate. Hope this works. -->
 
-	<SubTexture name="uta idle0000" x="450" y="0" width="450" height="500"/>
-	<SubTexture name="uta idle0001" x="450" y="0" width="450" height="500"/>
-	<SubTexture name="uta idle0002" x="450" y="0" width="450" height="500"/>
-	<SubTexture name="uta idle0003" x="450" y="0" width="450" height="500"/>
-	<SubTexture name="uta idle0004" x="0" y="0" width="450" height="500"/>
-	<SubTexture name="uta idle0005" x="0" y="0" width="450" height="500"/>
-	<SubTexture name="uta idle0006" x="0" y="0" width="450" height="500"/>
-	<SubTexture name="uta idle0007" x="0" y="0" width="450" height="500"/>
+	<SubTexture name="uta idle0000" x="0" y="0" width="450" height="500"/>
+	<SubTexture name="uta idle0001" x="0" y="0" width="450" height="500"/>
+	<SubTexture name="uta idle0002" x="0" y="0" width="450" height="500"/>
+	<SubTexture name="uta idle0003" x="0" y="0" width="450" height="500"/>
+	<SubTexture name="uta idle0004" x="450" y="0" width="450" height="500"/>
+	<SubTexture name="uta idle0005" x="450" y="0" width="450" height="500"/>
+	<SubTexture name="uta idle0006" x="450" y="0" width="450" height="500"/>
+	<SubTexture name="uta idle0007" x="450" y="0" width="450" height="500"/>
 
 	<SubTexture name="uta left0000" x="900" y="0" width="450" height="500"/>
 	<SubTexture name="uta left0001" x="900" y="0" width="450" height="500"/>
