@@ -739,26 +739,25 @@ class PlayState extends MusicBeatState
 			case 'theatre':
 			{
 					curStage = 'theatre';
+					defaultCamZoom = 0.70;
 
-					defaultCamZoom = 0.80;
-
-					var bg:FlxSprite = new FlxSprite(-1000, -500).loadGraphic(Paths.image('uta/bgTheatre'));
+					var bg:FlxSprite = new FlxSprite(-796, -423).loadGraphic(Paths.image('uta/bgTheatre'));
 					bg.antialiasing = true;
-					bg.scrollFactor.set(0.2, 0.2);
+					bg.scrollFactor.set(0.9, 0.9);
 					bg.active = false;
-					bg.setGraphicSize(Std.int(bg.width * 0.8));
+					// bg.setGraphicSize(Std.int(bg.width * 0.8));
 					bg.updateHitbox();
 					add(bg);
 
-					var bgLevel:FlxSprite = new FlxSprite(-1100, -600).loadGraphic(Paths.image('uta/bgLevel'));
+					var bgLevel:FlxSprite = new FlxSprite(-942, -507).loadGraphic(Paths.image('uta/bgLevel'));
 					bgLevel.antialiasing = true;
-					bgLevel.scrollFactor.set(0.3, 0.3);
+					bgLevel.scrollFactor.set(0.9, 0.9);
 					bgLevel.active = false;
-					bgLevel.setGraphicSize(Std.int(bgLevel.width * 0.9));
+					// bgLevel.setGraphicSize(Std.int(bgLevel.width * 0.9));
 					bgLevel.updateHitbox();
 					add(bgLevel);
 
-					var fgStage:FlxSprite = new FlxSprite(-600, 700).loadGraphic(Paths.image('uta/fgStage'));
+					var fgStage:FlxSprite = new FlxSprite(-603, 4167).loadGraphic(Paths.image('uta/fgStage'));
 					fgStage.active = false;
 					fgStage.antialiasing = true;
 					add(fgStage);
@@ -860,6 +859,10 @@ class PlayState extends MusicBeatState
 				dad.x -= 150;
 				dad.y += 100;
 				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
+			// case 'uta':
+			// 	dad.x = 971;
+			// 	dad.y = 1037;
+			// 	camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
 		}
 
 
@@ -903,6 +906,11 @@ class PlayState extends MusicBeatState
 				boyfriend.y += 220;
 				gf.x += 180;
 				gf.y += 300;
+			// case 'theatre':
+			// 	boyfriend.x = 1875;
+			// 	boyfriend.y = 1056;
+			// 	gf.x += 1220;
+			// 	gf.y += 693;
 		}
 
 		if (!PlayStateChangeables.Optimize)
