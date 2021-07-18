@@ -4,21 +4,21 @@
 
 	<SubTexture name="uta idle0000" x="450" y="0" width="450" height="500"/>
 	<SubTexture name="uta idle0001" x="450" y="0" width="450" height="500"/>
-	<SubTexture name="uta idle0002" x="0" y="0" width="450" height="500"/>
-	<SubTexture name="uta idle0003" x="0" y="0" width="450" height="500"/>
-	<SubTexture name="uta idle0004" x="450" y="0" width="450" height="500"/>
-	<SubTexture name="uta idle0005" x="450" y="0" width="450" height="500"/>
+	<SubTexture name="uta idle0002" x="450" y="0" width="450" height="500"/>
+	<SubTexture name="uta idle0003" x="450" y="0" width="450" height="500"/>
+	<SubTexture name="uta idle0004" x="0" y="0" width="450" height="500"/>
+	<SubTexture name="uta idle0005" x="0" y="0" width="450" height="500"/>
 	<SubTexture name="uta idle0006" x="0" y="0" width="450" height="500"/>
 	<SubTexture name="uta idle0007" x="0" y="0" width="450" height="500"/>
 
-	<SubTexture name="uta left0000" x="900" y="500" width="450" height="500"/>
-	<SubTexture name="uta left0001" x="900" y="500" width="450" height="500"/>
-	<SubTexture name="uta left0002" x="900" y="500" width="450" height="500"/>
-	<SubTexture name="uta left0003" x="900" y="500" width="450" height="500"/>
-	<SubTexture name="uta left0004" x="900" y="500" width="450" height="500"/>
-	<SubTexture name="uta left0005" x="900" y="500" width="450" height="500"/>
-	<SubTexture name="uta left0006" x="900" y="500" width="450" height="500"/>
-	<SubTexture name="uta left0007" x="900" y="500" width="450" height="500"/>
+	<SubTexture name="uta left0000" x="900" y="0" width="450" height="500"/>
+	<SubTexture name="uta left0001" x="900" y="0" width="450" height="500"/>
+	<SubTexture name="uta left0002" x="900" y="0" width="450" height="500"/>
+	<SubTexture name="uta left0003" x="900" y="0" width="450" height="500"/>
+	<SubTexture name="uta left0004" x="900" y="0" width="450" height="500"/>
+	<SubTexture name="uta left0005" x="900" y="0" width="450" height="500"/>
+	<SubTexture name="uta left0006" x="900" y="0" width="450" height="500"/>
+	<SubTexture name="uta left0007" x="900" y="0" width="450" height="500"/>
 
 	<SubTexture name="uta down0000" x="0" y="500" width="450" height="500"/>
     <SubTexture name="uta down0001" x="0" y="500" width="450" height="500"/>
