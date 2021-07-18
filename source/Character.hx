@@ -482,7 +482,6 @@ class Character extends FlxSprite
 				animation.addByPrefix('singRIGHT', 'Parent Right Note Dad', 24, false);
 
 				animation.addByPrefix('singUP-alt', 'Parent Up Note Mom', 24, false);
-
 				animation.addByPrefix('singDOWN-alt', 'Parent Down Note Mom', 24, false);
 				animation.addByPrefix('singLEFT-alt', 'Parent Left Note Mom', 24, false);
 				animation.addByPrefix('singRIGHT-alt', 'Parent Right Note Mom', 24, false);
@@ -512,6 +511,8 @@ class Character extends FlxSprite
 				addOffset("singDOWN", 0, 0);
 				addOffset("singUP", 0, 0);
 				addOffset("singRIGHT", 0, 0);
+
+				playAnim('idle');
 		}
 
 		dance();
