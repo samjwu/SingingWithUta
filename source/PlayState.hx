@@ -739,7 +739,7 @@ class PlayState extends MusicBeatState
 			case 'theatre':
 			{
 					curStage = 'theatre';
-					defaultCamZoom = 0.40;
+					defaultCamZoom = 0.50;
 
 					var bg:FlxSprite = new FlxSprite(-100, 0).loadGraphic(Paths.image('uta/bgTheatre'));
 					bg.antialiasing = true;
@@ -757,7 +757,7 @@ class PlayState extends MusicBeatState
 					bgLevel.updateHitbox();
 					add(bgLevel);
 
-					var fgStage:FlxSprite = new FlxSprite(35, 80).loadGraphic(Paths.image('uta/fgStage'));
+					var fgStage:FlxSprite = new FlxSprite(0, 50).loadGraphic(Paths.image('uta/fgStage'));
 					fgStage.active = false;
 					fgStage.antialiasing = true;
 					add(fgStage);
@@ -862,7 +862,7 @@ class PlayState extends MusicBeatState
 			case 'uta':
 				dad.x = 800;
 				dad.y = 975;
-				camPos.set(dad.getGraphicMidpoint().x - 1000, dad.getGraphicMidpoint().y - 1000);
+				camPos.set(1120, 693);
 		}
 
 
@@ -2318,6 +2318,9 @@ class PlayState extends MusicBeatState
 					case 'senpai-angry':
 						camFollow.y = dad.getMidpoint().y - 430;
 						camFollow.x = dad.getMidpoint().x - 100;
+					case 'uta':
+						camFollow.x = dad.getMidpoint().x - 600;
+						camFollow.y = dad.getMidpoint().y + 600;
 				}
 
 				if (dad.curCharacter == 'mom')
@@ -2354,6 +2357,9 @@ class PlayState extends MusicBeatState
 					case 'schoolEvil':
 						camFollow.x = boyfriend.getMidpoint().x - 200;
 						camFollow.y = boyfriend.getMidpoint().y - 200;
+					case 'theatre':
+						camFollow.x = boyfriend.getMidpoint().x - 600;
+						camFollow.y = boyfriend.getMidpoint().y - 500;
 				}
 			}
 		}
