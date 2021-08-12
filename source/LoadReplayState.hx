@@ -48,6 +48,7 @@ class LoadReplayState extends MusicBeatState
         
         addWeek(['Senpai', 'Roses', 'Thorns'], 6, ['senpai', 'senpai', 'spirit']);
 
+		addWeek(['PoBEEPo'], 10, ['uta']);
 
         for(i in 0...controlsStrings.length)
         {
