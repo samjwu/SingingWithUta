@@ -378,7 +378,7 @@ class PlayState extends MusicBeatState
 				case 4: stageCheck = 'limo';
 				case 5: if (songLowercase == 'winter-horrorland') {stageCheck = 'mallEvil';} else {stageCheck = 'mall';}
 				case 6: if (songLowercase == 'thorns') {stageCheck = 'schoolEvil';} else {stageCheck = 'school';}
-				case 10: stageCheck = 'theatre';
+				case 7: stageCheck = 'theatre';
 			}
 		} else {stageCheck = SONG.stage;}
 
