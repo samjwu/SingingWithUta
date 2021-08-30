@@ -1,5 +1,4 @@
 Tutorial:gf:1
-PoBEEPo:uta:10
 Bopeebo:dad:1
 Fresh:dad:1
 Dad Battle:dad:1
@@ -18,3 +17,4 @@ Winter Horrorland:monster-christmas:5
 Senpai:senpai:6
 Roses:senpai:6
 Thorns:spirit:6
+PoBEEPo:uta:7
