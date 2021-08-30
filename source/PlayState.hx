@@ -365,6 +365,8 @@ class PlayState extends MusicBeatState
 				dialogue = CoolUtil.coolTextFile(Paths.txt('roses/rosesDialogue'));
 			case 'thorns':
 				dialogue = CoolUtil.coolTextFile(Paths.txt('thorns/thornsDialogue'));
+			case 'pobeepo':
+				dialogue = CoolUtil.coolTextFile(Paths.txt('pobeepo/pobeepoDialogue'));	
 		}
 
 		//defaults if no stage was found in chart
@@ -1144,6 +1146,8 @@ class PlayState extends MusicBeatState
 					FlxG.sound.play(Paths.sound('ANGRY'));
 					schoolIntro(doof);
 				case 'thorns':
+					schoolIntro(doof);
+				case 'pobeepo':
 					schoolIntro(doof);
 				default:
 					startCountdown();
