@@ -171,25 +171,14 @@ class TitleState extends MusicBeatState
 		// bg.updateHitbox();
 		add(bg);
 
-		if(Main.watermarks) {
-			logoBl = new FlxSprite(-150, -100);
-			logoBl.frames = Paths.getSparrowAtlas('KadeEngineLogoBumpin');
-			logoBl.antialiasing = true;
-			logoBl.animation.addByPrefix('bump', 'logo bumpin', 24);
-			logoBl.animation.play('bump');
-			logoBl.updateHitbox();
-			// logoBl.screenCenter();
-			// logoBl.color = FlxColor.BLACK;
-		} else {
-			logoBl = new FlxSprite(-150, -100);
-			logoBl.frames = Paths.getSparrowAtlas('logoBumpin');
-			logoBl.antialiasing = true;
-			logoBl.animation.addByPrefix('bump', 'logo bumpin', 24);
-			logoBl.animation.play('bump');
-			logoBl.updateHitbox();
-			// logoBl.screenCenter();
-			// logoBl.color = FlxColor.BLACK;
-		}
+		logoBl = new FlxSprite(-150, -100);
+		logoBl.frames = Paths.getSparrowAtlas('SingingWithUtaLogoBumpin');
+		logoBl.antialiasing = true;
+		logoBl.animation.addByPrefix('bump', 'logo bumpin', 24);
+		logoBl.animation.play('bump');
+		logoBl.updateHitbox();
+		// logoBl.screenCenter();
+		// logoBl.color = FlxColor.BLACK;
 
 		gfDance = new FlxSprite(FlxG.width * 0.4, FlxG.height * 0.07);
 		gfDance.frames = Paths.getSparrowAtlas('gfDanceTitle');
@@ -375,32 +364,29 @@ class TitleState extends MusicBeatState
 
 		switch (curBeat)
 		{
-			case 2:
-				createCoolText(['In association', 'with']);
-			case 3:
+			case 0:
+				createCoolText(['In association', 'with', 'Newgrounds']);
 				ngSpr.visible = true;
-				addMoreText('Newgrounds');
-			case 5:
+			case 4:
 				ngSpr.visible = false;
 				deleteCoolText();
 
-			case 7:
+			case 5:
 				createCoolText(['Kade Engine', 'by', 'KadeDeveloper']);
-			case 8:
+			case 7:
 				deleteCoolText();
 				
-			case 9:
+			case 8:
 				createCoolText(['Friday Night Funkin\'', 'by', 'ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
-			case 13:
+			case 10:
 				deleteCoolText();
 
-			case 14:
+			case 11:
 				createCoolText(['Singing', 'With', 'Uta', 'by']);
-			case 15:
+			case 13:
 				addMoreText('samjwu');
 				
-
-			case 18:
+			case 16:
 				skipIntro();
 		}
 	}
