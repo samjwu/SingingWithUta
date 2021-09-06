@@ -11,6 +11,10 @@
     - [KadeDeveloper](https://twitter.com/KadeDeveloper)
     - [The contributors](https://github.com/KadeDev/Kade-Engine/graphs/contributors)
 
+### funkin-utau
+- For providing the BF voicebank
+    - [GenosX](https://gamebanana.com/members/1771171)
+
 # Shoutouts
 ### Newgrounds
 - For hosting the portal to Everything, By Everyone since 1995
@@ -22,7 +26,6 @@
     - [bbpanzu](https://gamebanana.com/members/1764067)
     - [Dokki.doodlez](https://gamebanana.com/members/1814745)
     - [evdial](https://gamebanana.com/members/1771790)
-    - [GenosX](https://gamebanana.com/members/1771171)
     - [kuroao_anomal](https://gamebanana.com/members/1793932)
     - [Mike Geno](https://gamebanana.com/members/1894477)
     - [srPerez](https://gamebanana.com/members/1819241)
