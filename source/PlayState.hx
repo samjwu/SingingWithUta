@@ -742,7 +742,7 @@ class PlayState extends MusicBeatState
 			{
 					curStage = 'theatre';
 					// defaultCamZoom = 0.50;
-					defaultCamZoom = 0.80;
+					defaultCamZoom = 0.8;
 
 					var bg:FlxSprite = new FlxSprite(-100, 0).loadGraphic(Paths.image('uta/bgTheatre'));
 					bg.antialiasing = true;
@@ -866,7 +866,7 @@ class PlayState extends MusicBeatState
 				dad.x = 800;
 				dad.y = 975;
 				// camPos.set(1120, 693);
-				camPos.set(1600, 700);
+				camPos.set(1600, 1000);
 		}
 
 
@@ -2326,9 +2326,9 @@ class PlayState extends MusicBeatState
 						camFollow.y = dad.getMidpoint().y - 430;
 						camFollow.x = dad.getMidpoint().x - 100;
 					case 'uta':
-						// camFollow.x = dad.getMidpoint().x - 600;
+						// camFollow.x = dad.getMidpoint().x - 600; // 0.5 zoom
 						camFollow.x = dad.getMidpoint().x - 550;
-						// camFollow.y = dad.getMidpoint().y + 600;
+						// camFollow.y = dad.getMidpoint().y + 600; // 0.5 zoom
 						camFollow.y = dad.getMidpoint().y + 900;
 				}
 
@@ -2367,9 +2367,9 @@ class PlayState extends MusicBeatState
 						camFollow.x = boyfriend.getMidpoint().x - 200;
 						camFollow.y = boyfriend.getMidpoint().y - 200;
 					case 'theatre':
-						// camFollow.x = boyfriend.getMidpoint().x - 600;
+						// camFollow.x = boyfriend.getMidpoint().x - 600; // 0.5 zoom
 						camFollow.x = boyfriend.getMidpoint().x - 500;
-						// camFollow.y = boyfriend.getMidpoint().y - 500;
+						// camFollow.y = boyfriend.getMidpoint().y - 500; // 0.5 zoom
 						camFollow.y = boyfriend.getMidpoint().y - 200;
 				}
 			}
