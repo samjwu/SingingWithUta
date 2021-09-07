@@ -4,6 +4,8 @@ Singing With Uta is a mod of the rhythm game [Friday Night Funkin'](https://frid
 
 Play Singing With Uta here on [GitHub!](https://samjwu.github.io/SingingWithUta/)
 
+![Singing With Uta Logo](SingingWithUtaLogo1.png)
+
 # Credits / Shoutouts
 ### Friday Night Funkin'
 - For creating the funkin’ base game
