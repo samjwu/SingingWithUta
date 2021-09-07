@@ -1,12 +1,22 @@
 # Singing With Uta
 
+### About
 Singing With Uta is a mod of the rhythm game [Friday Night Funkin'](https://fridaynightfunkin.fandom.com/wiki/Friday_Night_Funkin%27)
 
 Play Singing With Uta here on [GitHub!](https://samjwu.github.io/SingingWithUta/)
 
 ![Singing With Uta Logo](SingingWithUtaLogo1.png)
 
+### Featuring
+- New title logo: Singing With Uta!
+- New week: Week Uta!
+- New song: PoBEEPo!
+- New character: Uta!
+- New background: Theatre!
+- New cutscene: Uta challenges Boyfriend after hearing that he beat [Miku!](https://gamebanana.com/mods/44307)
+
 # Credits / Shoutouts
+
 ### Friday Night Funkin'
 - For creating the funkin’ base game
     - [Evilsk8r](https://twitter.com/evilsk8r)
