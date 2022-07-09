@@ -7,7 +7,14 @@ Play Singing With Uta here on [GitHub!](https://samjwu.github.io/SingingWithUta/
 
 ![Singing With Uta Logo](SingingWithUtaLogo1.png)
 
+Check out the gameplay video on [YouTube](https://www.youtube.com/watch?v=QEetPVv6LDQ)
+
+[![Gameplay Video](utagameplay.png)](https://www.youtube.com/watch?v=QEetPVv6LDQ)
+
 ### Featuring
+
+![Custom Week](weekuta.PNG)
+
 - New title logo: Singing With Uta!
 - New week: Week Uta!
 - New song: PoBEEPo!
